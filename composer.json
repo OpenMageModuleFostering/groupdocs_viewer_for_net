@@ -1,7 +1,7 @@
 {
     "name": "OpenMageModuleFostering/GroupDocs_Viewer_for_NET",
     "type": "magento-module",
-    "license": "GPL",
+    "license": "GNU-General-Public-License-(GPL)",
     "homepage": "",
     "description": ".NET version of the GroupDocs' online document viewer.",
     "authors": [

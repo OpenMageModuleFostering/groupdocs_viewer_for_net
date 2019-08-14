@@ -24,9 +24,12 @@ function insertViewerDotNet()
             handler = "";
             content = 'with out handler'
         }
+        if (url.slice(-1) != '/') {
+            url = url + '/';
+        }
         var libs = "<script type='text/javascript' src='" + url + "document-viewer/GetScript" + handler + "?name=libs/jquery-1.9.1.min.js'></script>" +
                 "<script type='text/javascript' src='" + url + "document-viewer/GetScript" + handler + "?name=libs/jquery-ui-1.10.3.min.js'></script>" +
-                "<script type='text/javascript' src='" + url + "document-viewer/GetScript" + handler + "?name=libs/knockout-2.2.1.js'></script>" +
+                "<script type='text/javascript' src='" + url + "document-viewer/GetScript" + handler + "?name=libs/knockout-3.0.0.js'></script>" +
                 "<script type='text/javascript' src='" + url + "document-viewer/GetScript" + handler + "?name=libs/turn.min.js'></script>" +
                 "<script type='text/javascript' src='" + url + "document-viewer/GetScript" + handler + "?name=libs/modernizr.2.6.2.Transform2d.min.js'></script>" +
                 "<script type='text/javascript' language='JavaScript'>" +
@@ -36,9 +39,9 @@ function insertViewerDotNet()
                 "}" +
                 "</script>" +
                 "<script type='text/javascript' src='" + url + "document-viewer/GetScript" + handler + "?name=installableViewer.min.js'><\/script>" +
-                "<script type='text/javascript'>$.fn.groupdocsViewer.prototype.applicationPath = '" + url + "';</script>" +
-                "<script type='text/javascript'>$.fn.groupdocsViewer.prototype.useHttpHandlers = " + use + ";</script>" +
-                "<script type='text/javascript' src='" + url + "document-viewer/GetScript" + handler + "?name=GroupdocsViewer.all.min.js'></script>" +
+                "<script type='text/javascript'>$.ui.groupdocsViewer.prototype.applicationPath = '" + url + "';</script>" +
+                "<script type='text/javascript'>$.ui.groupdocsViewer.prototype.useHttpHandlers = " + use + ";</script>" +
+                "<script type='text/javascript' src='" + url + "document-viewer/GetScript" + handler + "?name=GroupdocsViewer.all.min.js'><\/script>" +
                 "<script type='text/javascript' language='JavaScript'>" +
                 "$(function() {" +
                 "var styleBootstrap = document.createElement('link');" +

@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package>
     <name>GroupDocs_Viewer_for_NET</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <stability>stable</stability>
-    <license uri="http://www.gnu.org/licenses/gpl.html">GPL</license>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">GNU General Public License (GPL)</license>
     <channel>community</channel>
     <extends/>
     <summary>.NET version of the GroupDocs' online document viewer.</summary>
@@ -54,11 +54,11 @@ Find installation and usage instructions &lt;a href="put link here" rel="nofollo
 Learn more about the features and benefits of GroupDocs' document viewer control on our official &lt;a href="http://groupdocs.com/dot-net/document-viewer-library" target="_blank"&gt;website&lt;/a&gt;.&#xD;
 &#xD;
 Also, please feel free to &lt;a href="http://groupdocs.com/corporate/contact" rel="nofollow" target="_blank"&gt;contact us&lt;/a&gt; for any additional information and help.</description>
-    <notes>Initial version with basics functionality</notes>
+    <notes>Updated used libraries</notes>
     <authors><author><name>GroupDocs</name><user>Marketplace</user><email>support@groupdocs.com</email></author></authors>
-    <date>2014-01-13</date>
-    <time>12:12:15</time>
-    <contents><target name="magelocal"><dir name="Gdvd"><dir name="GroupdocsViewerDotNet"><dir name="Block"><dir name="Adminhtml"><dir name="Cms"><dir name="Page"><file name="Edit.php" hash="a57bc44d023b850cc31cb40176b77b66"/></dir></dir><file name="GroupdocsViewerDotNet.php" hash="ef4d293f69c51f55a6e2b9cdd206cf33"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="ViewerDotNetController.php" hash="d04ffdb9d1790651fcb09b7fdf53c0e1"/></dir></dir><dir name="etc"><file name="config.xml" hash="95d96e7ef68c3c092856d878af541a41"/></dir><dir name="Helper"><file name="Data.php" hash="e66bbc1ee2010d1206b480585cf5488f"/></dir><dir name="js"><file name=".htaccess" hash="7cffe2704dc0e86389a2d02391dcca5d"/><file name="insert.js" hash="05b60a5d687c1037f8364337ea6a53ce"/></dir><dir name="Model"><dir name="Mysql4"><dir name="GroupdocsViewerDotNet"><file name="Collection.php" hash="7c5739d2fdc9d82c27fa4b306665c28a"/></dir><file name="groupdocsviewerdotnet.php" hash="c71d20895f48447e08872e115bcf4dc0"/><file name="groupdocsviewerdotnet.php" hash="c71d20895f48447e08872e115bcf4dc0"/></dir><file name="groupdocsviewerdotnet.php" hash="502a4726216f74dd52ddc483ea825612"/></dir><dir name="sql"><dir name="GroupdocsViewerDotNet_setup"><file name="mysql4-install-0.1.0" hash="a5792b9599cb77f55706966813fb31ad"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Gdvd_GroupdocsViewerDotNet.xml" hash="9795d3d4b921acbd6413fff001d83efc"/></dir></target></contents>
+    <date>2014-04-03</date>
+    <time>05:33:57</time>
+    <contents><target name="magelocal"><dir name="Gdvd"><dir name="GroupdocsViewerDotNet"><dir name="Block"><dir name="Adminhtml"><dir name="Cms"><dir name="Page"><file name="Edit.php" hash="a57bc44d023b850cc31cb40176b77b66"/></dir></dir><file name="GroupdocsViewerDotNet.php" hash="ef4d293f69c51f55a6e2b9cdd206cf33"/></dir></dir><dir name="Helper"><file name="Data.php" hash="e66bbc1ee2010d1206b480585cf5488f"/></dir><dir name="Model"><dir name="Mysql4"><dir name="GroupdocsViewerDotNet"><file name="Collection.php" hash="7c5739d2fdc9d82c27fa4b306665c28a"/></dir><file name="groupdocsviewerdotnet.php" hash="c71d20895f48447e08872e115bcf4dc0"/></dir><file name="groupdocsviewerdotnet.php" hash="502a4726216f74dd52ddc483ea825612"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="ViewerDotNetController.php" hash="d04ffdb9d1790651fcb09b7fdf53c0e1"/></dir></dir><dir name="etc"><file name="config.xml" hash="95d96e7ef68c3c092856d878af541a41"/></dir><dir name="js"><file name="insert.js" hash="af4829496f55fa637cca30e4c12fb891"/><file name=".htaccess" hash="7cffe2704dc0e86389a2d02391dcca5d"/></dir><dir name="sql"><dir name="GroupdocsViewerDotNet_setup"><file name="mysql4-install-0.1.0" hash="a5792b9599cb77f55706966813fb31ad"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Gdvd_GroupdocsViewerDotNet.xml" hash="9795d3d4b921acbd6413fff001d83efc"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.3.0</min><max>5.4.0</max></php></required></dependencies>
 </package>
