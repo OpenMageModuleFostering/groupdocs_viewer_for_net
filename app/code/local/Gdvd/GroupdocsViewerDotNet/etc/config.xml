@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Gdvd_GroupdocsViewerDotNet>
+            <version>0.1.0</version>
+        </Gdvd_GroupdocsViewerDotNet>
+    </modules>
+    
+    <global>
+        
+    <blocks>
+         <adminhtml>
+            <rewrite>
+                <cms_page_edit>Gdvd_GroupdocsViewerDotNet_Block_Adminhtml_Cms_Page_Edit</cms_page_edit>
+            </rewrite>
+        </adminhtml>
+    </blocks>
+
+        
+        <models>
+            <groupdocsviewerdotnet>
+                <class>Gdvd_GroupdocsViewerDotNet_Model</class>
+                <resourceModel>groupdocsviewerdotnet_mysql4</resourceModel>
+            </groupdocsviewerdotnet>
+            <groupdocsviewerdotnet_mysql4>
+                <class>Gdvd_GroupdocsViewerDotNet_Model_Mysql4</class>
+                <entities>
+                    <groupdocsviewerdotnet>
+                        <table>groupdocsvd</table>
+                    </groupdocsviewerdotnet>
+                </entities>
+            </groupdocsviewerdotnet_mysql4>
+        </models>
+<resources>
+        <groupdocsviewerdotnet_write>
+            <connection>
+                <use>core_write</use>
+            </connection>
+        </groupdocsviewerdotnet_write>
+
+       <groupdocsviewerdotnet_read>
+          <connection>
+             <use>core_read</use>
+          </connection>
+       </groupdocsviewerdotnet_read>
+       
+       <groupdocsviewerdotnet_delete>
+          <connection>
+             <use>core_delete</use>
+          </connection>
+       </groupdocsviewerdotnet_delete>
+</resources>
+
+        
+        
+        
+        
+        <blocks>
+            <groupdocsviewerdotnet>
+                <class>Gdvd_GroupdocsViewerDotNet_Block</class>
+            </groupdocsviewerdotnet>
+        </blocks>
+        <helpers>
+            <groupdocsviewerdotnet>
+                <class>Gdvd_GroupdocsViewerDotNet_Helper</class>
+            </groupdocsviewerdotnet>  
+        </helpers>
+    </global>
+    
+    <admin>
+        <routers>
+            <groupdocsviewerdotnet>
+                <use>admin</use>
+                <args>
+                    <module>Gdvd_GroupdocsViewerDotNet</module>
+                    <frontName>groupdocsviewerdotnet</frontName>
+                </args>
+            </groupdocsviewerdotnet>
+        </routers>
+    </admin>
+    
+    <adminhtml>
+        
+        <menu>
+            <catalog>
+                <children>
+                    <groupdocsviewerdotnet_adminform translate="title" module="groupdocsviewerdotnet">
+                        <title>Groupdocs Viewer .NET</title>
+                        <action>groupdocsviewerdotnet/adminhtml_viewerdotnet</action>
+                    </groupdocsviewerdotnet_adminform>
+                </children>
+            </catalog>
+        </menu>
+        
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <catalog>
+                            <children>
+                                <groupdocsviewerdotnet_adminform>
+                                    <title>Groupdocs Viewer .NET</title>
+                                </groupdocsviewerdotnet_adminform>
+                            </children>
+                        </catalog>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+        
+        <layout>
+            <updates>
+                <groupdocsviewerdotnet>
+                    <file>groupdocsviewerdotnet.xml</file>
+                </groupdocsviewerdotnet>
+            </updates>
+        </layout>
+    </adminhtml>
+</config>

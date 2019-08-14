@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<package>
+    <name>GroupDocs_Viewer_for_NET</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.gnu.org/licenses/gpl.html">GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>.NET version of the GroupDocs' online document viewer.</summary>
+    <description>&lt;h2&gt;.NET &amp; ASP.NET Document Viewer Control&lt;/h2&gt;&#xD;
+&#xD;
+This extension is created based on &lt;a href="http://groupdocs.com/dot-net/document-viewer-library" target="_blank"&gt;GroupDocs' .NET &amp; ASP.NET document viewer control&lt;/a&gt;, which is an online document viewer that can be hosted on-site and allows you to display over 45 different kinds of files directly on your Magento website. The viewer is completely independent, meaning users don't have to install any additional software to view documents online.&#xD;
+&#xD;
+&lt;h3&gt;Key Features &amp; Benefits&lt;/h3&gt;&#xD;
+&#xD;
+&lt;p&gt;1. GroupDocs Viewer can both rasterize documents and convert them to HTML+CSS+SVG using HTML5 technology. The last option enables you to display documents with native text rendering. This allows users to select and copy text to clipboard right from the embedded documents on your website.&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;2. When converted to HTML+CSS+SVG, documents are scalable and can be fit to any page or screen size without losing rendering quality - text looks clear and sharp.&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;3. GroupDocs' document viewer control for .NET &amp; ASP.NET comes with a convenient UI for easy document navigation. Users can scroll documents, turn pages with buttons or jump straight to a specified page. There is also a thumbnail bar for a quick page preview and a search option which allows users to search for text within a document using keywords.&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;4. Embedded documents can be downloaded and printed out right from a web-browser. However, if you don't want users to copy a document, you can disable the download/print/copy options easily.&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;5. GroupDocs Viewer doesn't require Flash, Acrobat Reader or any other software installation on the client side. Users can view documents from any device with a web-browser that supports HTML5.&lt;/p&gt;&#xD;
+&#xD;
+&lt;h3&gt;Supported File Formats&lt;/h3&gt;&#xD;
+&#xD;
+With the GroupDocs' document viewer control you can display documents of almost all common business formats:&#xD;
+&#xD;
+Portable Document Format: PDF&#xD;
+Microsoft Word: DOC, DOCX, DOCM, DOT, DOTX, DOTM&#xD;
+Microsoft Excel: XLS, XLSX, XLSM, XLSB, XML&#xD;
+Microsoft PowerPoint: PPT, PPTX&#xD;
+Microsoft Visio: VSD, VDX, VSS, VSX, VST, VTX, VSDX, VDW&#xD;
+Microsoft Project: MPP, MPT&#xD;
+Microsoft Outlook: MSG, EML&#xD;
+OpenDocument Formats: ODT, OTT, ODS, ODP&#xD;
+Rich Text Format: RTF&#xD;
+Plain Text File: TXT&#xD;
+Comma-Separated Values: CSV&#xD;
+HyperText Markup Language: HTM, HTML, MHT, MHTML&#xD;
+XML Paper Specification: XPS&#xD;
+AutoCAD Drawing File Format: DXF&#xD;
+Image files: BMP, GIF, JPG, PNG, TIFF&#xD;
+Electronic publication: EPUB&#xD;
+&lt;h3&gt;Installation&lt;/h3&gt;&#xD;
+&#xD;
+&lt;strong&gt;Please note:&lt;/strong&gt; to use the .NET (ASP.NET) version of GroupDocs' document viewer on your Magento website, you need to &lt;a href="http://groupdocs.com/purchase/dotnet-pricing" rel="nofollow" target="_blank"&gt;buy a license&lt;/a&gt; first. Alternatively, please &lt;a href="http://groupdocs.com/corporate/contact" rel="nofollow" target="_blank"&gt;contact our sales&lt;/a&gt; for a free 30-day evaluation license, so that you can test everything before buying our service.&#xD;
+&#xD;
+Find installation and usage instructions &lt;a href="put link here" rel="nofollow" target="_blank"&gt;here&lt;/a&gt;.&#xD;
+&#xD;
+&lt;h3&gt;Have Questions?&lt;/h3&gt;&#xD;
+&#xD;
+Learn more about the features and benefits of GroupDocs' document viewer control on our official &lt;a href="http://groupdocs.com/dot-net/document-viewer-library" target="_blank"&gt;website&lt;/a&gt;.&#xD;
+&#xD;
+Also, please feel free to &lt;a href="http://groupdocs.com/corporate/contact" rel="nofollow" target="_blank"&gt;contact us&lt;/a&gt; for any additional information and help.</description>
+    <notes>Initial version with basics functionality</notes>
+    <authors><author><name>GroupDocs</name><user>Marketplace</user><email>support@groupdocs.com</email></author></authors>
+    <date>2014-01-13</date>
+    <time>12:12:15</time>
+    <contents><target name="magelocal"><dir name="Gdvd"><dir name="GroupdocsViewerDotNet"><dir name="Block"><dir name="Adminhtml"><dir name="Cms"><dir name="Page"><file name="Edit.php" hash="a57bc44d023b850cc31cb40176b77b66"/></dir></dir><file name="GroupdocsViewerDotNet.php" hash="ef4d293f69c51f55a6e2b9cdd206cf33"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="ViewerDotNetController.php" hash="d04ffdb9d1790651fcb09b7fdf53c0e1"/></dir></dir><dir name="etc"><file name="config.xml" hash="95d96e7ef68c3c092856d878af541a41"/></dir><dir name="Helper"><file name="Data.php" hash="e66bbc1ee2010d1206b480585cf5488f"/></dir><dir name="js"><file name=".htaccess" hash="7cffe2704dc0e86389a2d02391dcca5d"/><file name="insert.js" hash="05b60a5d687c1037f8364337ea6a53ce"/></dir><dir name="Model"><dir name="Mysql4"><dir name="GroupdocsViewerDotNet"><file name="Collection.php" hash="7c5739d2fdc9d82c27fa4b306665c28a"/></dir><file name="groupdocsviewerdotnet.php" hash="c71d20895f48447e08872e115bcf4dc0"/><file name="groupdocsviewerdotnet.php" hash="c71d20895f48447e08872e115bcf4dc0"/></dir><file name="groupdocsviewerdotnet.php" hash="502a4726216f74dd52ddc483ea825612"/></dir><dir name="sql"><dir name="GroupdocsViewerDotNet_setup"><file name="mysql4-install-0.1.0" hash="a5792b9599cb77f55706966813fb31ad"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Gdvd_GroupdocsViewerDotNet.xml" hash="9795d3d4b921acbd6413fff001d83efc"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>5.4.0</max></php></required></dependencies>
+</package>
