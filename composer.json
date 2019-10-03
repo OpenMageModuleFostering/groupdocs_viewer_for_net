@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/GroupDocs_Viewer_for_NET",
+    "name": "OpenMageModuleFostering\/GroupDocs_Viewer_for_NET",
     "type": "magento-module",
     "license": "GNU-General-Public-License-(GPL)",
     "homepage": "",
     "description": ".NET version of the GroupDocs' online document viewer.",
     "authors": [
-    {
-        "name": "GroupDocs",
-        "email": "support@groupdocs.com"
-    }
-],
+        {
+            "name": "GroupDocs",
+            "email": "support@groupdocs.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
